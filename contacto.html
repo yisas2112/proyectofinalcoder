@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JR Social Manager</title>
+	<meta name="description" content="Ponete en contacto con nosotros y en breve nos comunicaremos con vos">
+	<meta name="keywords" content="html, css3, marketing digital, desarrolo web, google ads, ecomerce">
+	<!-- Css Bootstrap-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Css Propio -->
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<!-- Css Mobile propio -->
+	<link rel="stylesheet" type="text/css" href="styles/mquery.css">
+	<!-- Font de Google-->
+	<link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+	<!-- Hacer el proyecto escalable-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Animaciones -->	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	
+</head>
+<body>
+	<header>
+		<div class="container-fluid mt-2">
+			<nav class="navbar navbar-light bg-light">
+  				<a class="navbar-brand" href="index.html">
+    				<img src="images/logo.png" width="60" height="45" alt="">
+  				</a>			
+				<ul class="nav justify-content-end">
+					<li class="nav-item">
+				    	<a class="nav-link active" href="index.html">Inicio</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" href="nosotros.html">Quiénes Sómos</a>
+				  	</li>
+				  	<li class="dropdown nav-item">
+          				<a class="nav-link" href="servicios.html">Servicios</a>
+				          	<ul class="dropdown-menu d-block">
+					            <li class="sub-item-nav"><a href="#">Desarrollo Web</a></li>
+					            <li class="sub-item-nav"><a href="#">Marketing Digital</a></li>
+					            <li class="sub-item-nav"><a href="#">Google Ads</a></li>
+					            <li class="sub-item-nav"><a href="#">E-Commerce</a></li>
+				            </ul>
+				  <li class="nav-item">
+				    <a class="nav-link" href="portfolio.html">Portfolio</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="contacto.html">Contacto</a>
+				  </li>
+				</ul>				
+				<button class="navbar-toggler dropdown navbar__button--mobile" type="button"  data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+		     	
+		     	</div>
+				    <div class="collapse navbar-collapse ml-4" id="navbarSupportedContent">
+						<ul class="navbar-nav list-Mobile mt-1">
+						  <li class="nav-item active">
+						    <a class="nav-link" href="index.html">Inicio</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" href="nosotros.html">Quénes Sómos</a>
+						  </li>
+						  <li class="nav-item">
+					    	<a class="nav-link" href="servicios.html">Servicios</a>
+						  </li>						  
+						  <li class="nav-item">
+					    	<a class="nav-link" href="portfolio.html">Portfolio</a>
+					  	  </li>
+					      <li class="nav-item">
+					      	<a class="nav-link" href="contacto.html">Contacto</a>
+					  	  </li>
+					 	</ul>
+					</div>
+			</nav>
+		</div>
+	</header>
+
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 col-md-3 mt-3">
+					<img class="d-flex mx-auto section__contacto__imagen mt-3" src="images/Contacto.jpg" alt="Imagen Contacto">					
+				</div>
+
+				<div class="col-lg-6 col-md-3" >
+					<p class="text-center mt-3 footer--text">Contacto</p>
+					<form class="was-validated mx-auto" id="section__form_contacto" >
+						<div class="form-group">
+							<input type="text" class="form-control is-valid" id="name_person" placeholder="Nombre" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control is-valid" id="last_person"  placeholder="Apellido" required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control is-valid" placeholder="Mail" required>							
+						</div>
+						<div class="form-group footer--text">
+							<label for="service">Servicio</label>
+							<select id="service" class="form-control">
+								<option>Desarrollo Web</option>
+								<option>Marketing Digital</option>
+								<option>Google Ads</option>
+								<option>E-Commerce</option>								
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="mensaje">Mensaje</label>
+							<textarea class="form-control is-valid" id="mensaje" placeholder="Dejenos su Consulta" required></textarea>
+							<div class="invalid-feedback">
+								Por favor dejenos sumensaje
+							</div>
+						</div>
+						<div class="text-center">
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>
+							
+							<!-- Modal -->							
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										
+										<!-- Modal header-->
+										<div class="modal-header">
+											<h4 class="modal-title">Enviado</h4>
+											<button type="button" class="close" data-dismiss="modal">&times;</button>											
+										</div>
+
+										<!-- Body Modal-->
+										<div class="modal-body">Gracias por realizar la consulta!
+											<br>
+										En breve nos comunicaremos con vos.</div>
+
+										<!--Modal Footer -->
+										<div class="modal-footer">
+											<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="container-fluid ">
+					<div class="row">
+						<div class="col-lg text-center">
+							<p class="footer--text">Ubicación</p>
+							<iframe class="section__contacto__mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9249822293586!2d-58.381410897936604!3d-34.60605842757781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50e69a8f7fcb1c11!2sHospital%20Odontologico%20Eva%20Peron!5e0!3m2!1ses!2sar!4v1594943905389!5m2!1ses!2sar" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>					
+					</div>
+				</div>				
+			</div>
+			
+		</div>
+	</section>
+
+		<footer>
+			<div class="container-fluid">
+			<div class="col footer__redes d-flex align-items-center">					
+				<div class="mr-3">
+					<img class="footer__redes--icons" src="icons/facebook.svg" alt="logo facebook">
+					<a href="https://www.facebook.com/" target="blank">Facebook</a>
+				</div>
+				<div class="mr-3">
+					<img class="footer__redes--icons" src="icons/instagram.svg" alt="logo instagram">
+					<a href="http://www.instagram.com" target="blank">Instagram</a>
+				</div>
+				<div class="mr-3">
+				<img class="footer__redes--icons" src="icons/gmail.svg" alt="icon mail">
+					<a href="mailto:rodriguez@gmail.com">Mail</a>
+				</div>
+				<div class="mr-3">
+					<img class="footer__redes--icons" src="icons/whatsapp.svg" alt="whatsapp">
+					<a href="mailto:rodriguez@gmail.com">Whatsapp</a>									
+				</div>
+			</div>
+			</div>		
+	</footer>
+	
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!-- CDN de la librería de Jquery  -->	
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script><!-- CDN de la librería de Popper  -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	
+</body>
+</html>
