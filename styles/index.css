@@ -59,8 +59,7 @@ h3 {
 /*Mixins*/
 .footer__redes--icons {
   height: 25px;
-  width: 25px;
-  margin-right: 20px; }
+  width: 25px; }
 
 .footer__redes {
   width: 100%;
