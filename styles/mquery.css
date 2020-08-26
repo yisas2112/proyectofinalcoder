@@ -130,7 +130,7 @@
 	}
 
 	.quienesSomos{
-		width: 490px;
+		width: 100%;
 	}
 	.p-service{
 		font-size: 15px;
@@ -148,7 +148,7 @@
 		font-size: 25px;
 	}
 	#footer_form{
-		width: 500px;
+		width: 100%;
 	}
 	
 	.portfolio__images--mobil{
@@ -170,6 +170,9 @@
 	.section__contacto__mapa{
 		width: 100%;
 		border-radius: 10px;
+	}
+	.footer__redes{
+		text-align: center;
 	}
 
 }
