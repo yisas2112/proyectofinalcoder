@@ -118,46 +118,46 @@ h3 {
 
 /*PORTFOLIO*/
 .portfolio-images-cocacola {
-  width: 180px;
-  height: 200px; }
+  width: 250px;
+  height: 250px; }
 
 .portfolio-images-cocacola:hover {
-  -webkit-transform: scale(1.5); }
+  -webkit-transform: scale(1.2); }
 
 .portfolio-images-casablanca {
-  width: 180px;
-  height: 200px; }
+  width: 250px;
+  height: 250px; }
 
 .portfolio-images-casablanca:hover {
-  -webkit-transform: scale(1.5); }
+  -webkit-transform: scale(1.2); }
 
 .portfolio-images-despegar {
-  width: 180px;
-  height: 200px; }
+  width: 250px;
+  height: 250px; }
 
 .portfolio-images-despegar:hover {
-  -webkit-transform: scale(1.5); }
+  -webkit-transform: scale(1.2); }
 
 .portfolio-images-otowil {
-  width: 180px;
-  height: 200px; }
+  width: 250px;
+  height: 250px; }
 
 .portfolio-images-otowil:hover {
-  -webkit-transform: scale(1.5); }
+  -webkit-transform: scale(1.2); }
 
 .portfolio-images-reebok {
-  width: 180px;
-  height: 200px; }
+  width: 250px;
+  height: 250px; }
 
 .portfolio-images-reebok:hover {
-  -webkit-transform: scale(1.5); }
+  -webkit-transform: scale(1.2); }
 
 .portfolio-images-samsung {
-  width: 180px;
-  height: 200px; }
+  width: 250px;
+  height: 250px; }
 
 .portfolio-images-samsung:hover {
-  -webkit-transform: scale(1.5); }
+  -webkit-transform: scale(1.2); }
 
 /*CONTACTO*/
 .section__contacto__imagen {

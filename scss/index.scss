@@ -135,11 +135,11 @@ $margin:auto;
 /*PORTFOLIO*/
 @each $portfolio in cocacola, casablanca, despegar, otowil, reebok, samsung{
 	.portfolio-images-#{$portfolio}{
-		width: 180px;
-		height: 200px;
+		width: 250px;
+		height: 250px;
 	}	
 	.portfolio-images-#{$portfolio}:hover{
-		-webkit-transform:scale(1.50);
+		-webkit-transform:scale(1.20);
 	}	
 }
 
