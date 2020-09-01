@@ -3,8 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JR Social Manager</title>
+	<!-- Descripcion SEO -->
 	<meta name="description" content="Somos un equipo integral que brinda servicios de Desarrollo">
+	<!-- Keywords SEO-->
 	<meta name="keywords" content="html, css3, marketing digital, desarrolo web, google ads, ecomerce">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/Logo.png"/>
 	<!-- Css Bootstrap-->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Css Propio -->
@@ -17,14 +21,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Animaciones -->	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-	
-	
-
-
 </head>
+
 <body>
+	<!-- Header-->
 	<header>
 		<div class="container-fluid mt-2">
+			<!-- Navbar Desktop-->				
 			<nav class="navbar navbar-light bg-light">
   				<a class="navbar-brand" href="index.html">
     				<img src="images/Logo.png" width="60" height="45" alt="">
@@ -50,36 +53,41 @@
 				  <li class="nav-item">
 				    <a class="nav-link" href="contacto.html">Contacto</a>
 				  </li>
-				</ul>				
+				</ul>
+				<!-- Fin Navbar Desktop-->				
+				<!-- Navbar Mobile-->				
+				<div class="navbar__button--mobile">
 				<button class="navbar-toggler dropdown navbar__button--mobile" type="button"  data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-		     	
+				<span class="navbar-toggler-icon"></span>		     	
 		     	</div>
-				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav list-Mobile mt-1">
-						  <li class="nav-item active">
-						    <a class="nav-link" href="index.html">Inicio</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
-						  </li>
-						  <li class="nav-item">
-					    	<a class="nav-link" href="servicios.html">Servicios</a>
-						  </li>						  
-						  <li class="nav-item">
-					    	<a class="nav-link" href="portfolio.html">Portfolio</a>
-					  	  </li>
-					      <li class="nav-item">
-					      	<a class="nav-link" href="contacto.html">Contacto</a>
-					  	  </li>
-					 	</ul>
-					</div>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav list-Mobile mt-3">
+					  <li class="nav-item active">
+					    <a class="nav-link" href="index.html">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
+					  </li>
+					  <li class="nav-item">
+				    	<a class="nav-link" href="servicios.html">Servicios</a>
+					  </li>						  
+					  <li class="nav-item">
+				    	<a class="nav-link" href="portfolio.html">Portfolio</a>
+				  	  </li>
+				      <li class="nav-item">
+				      	<a class="nav-link" href="contacto.html">Contacto</a>
+				  	  </li>
+				 	</ul>
+				</div>
+				<!-- Fin Navbar Mobile-->
 			</nav>
 		</div>
 	</header>
-
+	<!--Finde Header-->
+	<!--Sección Principal-->
 	<section>
 		<div class="container-fluid">
+			<!--Imagen y texto Principal-->
 			<div class="row">
 			  	<div class="col" >
 			  		<img class="mx-auto d-block quienesSomos mt-2" src="images/quienesomos.png" alt="quienesomos">
@@ -91,12 +99,14 @@
 		  		<p>Somos un equipo especializado en el área de desarrollo, marketing digitial y publicidad en línea. Nuestro próposito es hacer realidad sus proyectos, sueños y/o emprendimientos. Contamos con una gran gama de posibilidades y herramientas para emplearlos y llevarlos a la realidad.</p>
 		  		</div>
 		  	</div>
-
+		  	<!--Fin Imagen y texto Principal-->
+		  	<!--Clientes Title-->
 		  	<div class="row">
 		  		<div class="col text-center mb-3">
 		  			<h2 class="animate__bounce">Clientes</h2>		  			
 		  		</div>
 		  	</div>
+		  	<!--Clientes Carrousel Mobile-->
 		  	<div id="carouselExampleIndicators" class="carousel slide d-md-none" data-ride="carousel">
 		  		<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -130,6 +140,8 @@
 				    <span class="sr-only">Next</span>
 				  </a>
 			</div>
+			<!--Fin Clientes Carrousel Mobile-->
+			<!--Clientes Desktop-->
 		  	<div class="row section__cliente">
 		  		<div class="col-3 text-center">
 	  				<img class="section__cliente__logo mb-3" src="images/adidas.jpg">
@@ -148,13 +160,14 @@
 					<h3>Nike</h3>		  			
 		  		</div>
 		  	</div>
-
+		  	<!--Fin Clientes Desktop-->
 		</div>
-
 	</section>
-
+	<!--Fin Sección Principal-->
+	<!--Footer-->
 	<footer>
-		<div class="container-fluid">
+		<div class="container-fluid mt-3">
+			<!-- Footer Mapa y Formulario -->
 			<div class="row ">
 				<div class="col-md text-center">					
 					<p class="footer--text">Ubicación</p>
@@ -189,34 +202,33 @@
 							</div>
 						</div>
 						<div class="text-center">
-							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>						
-								<!-- Modal -->							
-								<div class="modal" id="myModal">
-									<div class="modal-dialog">
-										<div class="modal-content">
-											
-											<!-- Modal header-->
-											<div class="modal-header">
-												<h4 class="modal-title">Enviado</h4>
-												<button type="button" class="close" data-dismiss="modal">&times;</button>											
-											</div>
-
-											<!-- Body Modal-->
-											<div class="modal-body">Gracias por realizar la consulta!
-												<br>
-											En breve nos comunicaremos con vos.</div>
-
-											<!--Modal Footer -->
-											<div class="modal-footer">
-												<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-											</div>
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>							
+							<!-- Modal -->							
+							<div class="modal" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">										
+										<!-- Modal header-->
+										<div class="modal-header">
+											<h4 class="modal-title">Enviado</h4>
+											<button type="button" class="close" data-dismiss="modal">&times;</button>											
+										</div>
+										<!-- Body Modal-->
+										<div class="modal-body">Gracias por realizar la consulta!
+											<br>
+										En breve nos comunicaremos con vos.</div>
+										<!--Modal Footer -->
+										<div class="modal-footer">
+											<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
 										</div>
 									</div>
 								</div>
+							</div>
 						</div>
 					</form>
 				</div>
-			</div>			
+			</div>	
+			<!-- Footer Mapa y Formulario -->
+			<!-- Barra footer redes sociales-->				
 			<div class="col footer__redes d-flex align-items-center">					
 				<div class="mx-4">
 					
@@ -233,7 +245,10 @@
 					<a href="mailto:rodriguez@gmail.com"><img class="footer__redes--icons" src="icons/whatsapp.svg" alt="whatsapp"></a>									
 				</div>
 			</div>
+			<!-- Barra footer redes sociales-->				
+		</div>			
 	</footer>
+	<!--Fin Footer -->
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!-- CDN de la librería de Jquery  -->	

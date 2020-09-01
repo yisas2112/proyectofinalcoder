@@ -3,8 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JR Social Manager</title>
+	<!-- Descripcion SEO -->
 	<meta name="description" content="Brindamos servicios digitales a medida y personalizados">
+	<!-- Keywords SEO-->
 	<meta name="keywords" content="html, css3, marketing digital, desarrolo web, google ads, ecomerce">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/Logo.png"/>
 	<!-- Css Bootstrap-->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Css Propio -->
@@ -20,8 +24,10 @@
 </head>
 
 <body>
+	<!-- Header-->
 	<header>
 		<div class="container-fluid mt-2">
+			<!-- Navbar Desktop-->				
 			<nav class="navbar navbar-light bg-light">
   				<a class="navbar-brand" href="index.html">
     				<img src="images/Logo.png" width="60" height="45" alt="">
@@ -47,34 +53,38 @@
 				  <li class="nav-item">
 				    <a class="nav-link" href="contacto.html">Contacto</a>
 				  </li>
-				</ul>				
+				</ul>
+				<!-- Fin Navbar Desktop-->				
+				<!-- Navbar Mobile-->				
+				<div class="navbar__button--mobile">
 				<button class="navbar-toggler dropdown navbar__button--mobile" type="button"  data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-		     	
+				<span class="navbar-toggler-icon"></span>		     	
 		     	</div>
-				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav list-Mobile mt-1">
-						  <li class="nav-item active">
-						    <a class="nav-link" href="index.html">Inicio</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
-						  </li>
-						  <li class="nav-item">
-					    	<a class="nav-link" href="servicios.html">Servicios</a>
-						  </li>						  
-						  <li class="nav-item">
-					    	<a class="nav-link" href="portfolio.html">Portfolio</a>
-					  	  </li>
-					      <li class="nav-item">
-					      	<a class="nav-link" href="contacto.html">Contacto</a>
-					  	  </li>
-					 	</ul>
-					</div>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav list-Mobile mt-3">
+					  <li class="nav-item active">
+					    <a class="nav-link" href="index.html">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
+					  </li>
+					  <li class="nav-item">
+				    	<a class="nav-link" href="servicios.html">Servicios</a>
+					  </li>						  
+					  <li class="nav-item">
+				    	<a class="nav-link" href="portfolio.html">Portfolio</a>
+				  	  </li>
+				      <li class="nav-item">
+				      	<a class="nav-link" href="contacto.html">Contacto</a>
+				  	  </li>
+				 	</ul>
+				</div>
+				<!-- Fin Navbar Mobile-->
 			</nav>
 		</div>
 	</header>
-		
+	<!--Finde Header-->
+	<!--Seccón Principal Servicios -->		
 	<section>
 		<div class="container-fluid">
 			<div class="row">
@@ -103,38 +113,42 @@
 					<h3>E-Commerce</h3>
 					<p class="p-service">Si tiene una tienda física pero también tener presencia en internet, nosotros podemos hacer tu tienda online. Vas a poder incrementar tus ventas de manera considerable.</p>					
 				</div>				
-			</div>			
+			</div>
+		</div>			
 	</section>
-
+	<!--Fin Seccón Principal Servicios -->		
+	<!--Seccón Principal Otros Servicios -->		
 	<section>
 		<div class="container-fluid">
 			<div class="row">
-						<div class="col-md text-center mb-3">
-							<h2 class="animate__bounce">Otros Servicios</h2>					
-						</div>
+				<div class="col-md text-center mb-3">
+					<h2 class="animate__bounce">Otros Servicios</h2>					
+				</div>					
+				<div class="row">
+					<div class="col-md text-center px-5">
+						<img class="section__service__images-5 mb-3" src="images/mailmarketing.jpg" alt="Mail Marketing">
+						<h3>Mail Marketing</h3>
+						<p class="p-service">Creamos tu campañana de Email y lo envíamos a tus suscriptores y/o clientes potenciales.</p>						
 					</div>
-					<div class="row">
-						<div class="col-md text-center px-5">
-							<img class="section__service__images-5 mb-3" src="images/mailmarketing.jpg" alt="Mail Marketing">
-							<h3>Mail Marketing</h3>
-							<p class="p-service">Creamos tu campañana de Email y lo envíamos a tus suscriptores y/o clientes potenciales.</p>						
-						</div>
-						<div class="col-md text-center px-5">
-							<img class="section__service__images-6 mb-3" src="images/flyers.jpg" alt="Flayers">
-							<h3>Diseño de Flayers</h3>
-							<p class="p-service">Diseñamos tu flyers para tus eventos importantes con una buena imagen de diseño</p>						
-						</div>
-						<div class="col-md text-center px-5">
-							<img class="section__service__images-7 mb-3" src="images/tarjetaspersonales.jpg" alt="Tarjetas Pearsonales">
-							<h3>Tarjetas Pearsonales</h3>
-							<p class="p-service">Tarjetas profesionales personales para que tus clientes tengan a mano tu información de contacto</p>						
-						</div>
-					</div>				
-				</div>
+					<div class="col-md text-center px-5">
+						<img class="section__service__images-6 mb-3" src="images/flyers.jpg" alt="Flayers">
+						<h3>Diseño de Flayers</h3>
+						<p class="p-service">Diseñamos tu flyers para tus eventos importantes con una buena imagen de diseño</p>						
+					</div>
+					<div class="col-md text-center px-5">
+						<img class="section__service__images-7 mb-3" src="images/tarjetaspersonales.jpg" alt="Tarjetas Pearsonales">
+						<h3>Tarjetas Pearsonales</h3>
+						<p class="p-service">Tarjetas profesionales personales para que tus clientes tengan a mano tu información de contacto</p>						
+					</div>
+				</div>								
+			</div>
 		</div>
 	</section>
+	<!--Seccón Principal Otros Servicios -->		
+	<!--Footer-->
 	<footer>
-		<div class="container-fluid">
+		<div class="container-fluid mt-3">
+			<!-- Footer Mapa y Formulario -->
 			<div class="row ">
 				<div class="col-md text-center">					
 					<p class="footer--text">Ubicación</p>
@@ -169,24 +183,20 @@
 							</div>
 						</div>
 						<div class="text-center">
-							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>
-							
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>							
 							<!-- Modal -->							
 							<div class="modal" id="myModal">
 								<div class="modal-dialog">
-									<div class="modal-content">
-										
+									<div class="modal-content">										
 										<!-- Modal header-->
 										<div class="modal-header">
 											<h4 class="modal-title">Enviado</h4>
 											<button type="button" class="close" data-dismiss="modal">&times;</button>											
 										</div>
-
 										<!-- Body Modal-->
 										<div class="modal-body">Gracias por realizar la consulta!
 											<br>
 										En breve nos comunicaremos con vos.</div>
-
 										<!--Modal Footer -->
 										<div class="modal-footer">
 											<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -197,7 +207,9 @@
 						</div>
 					</form>
 				</div>
-			</div>			
+			</div>	
+			<!-- Footer Mapa y Formulario -->
+			<!-- Barra footer redes sociales-->				
 			<div class="col footer__redes d-flex align-items-center">					
 				<div class="mx-4">
 					
@@ -214,8 +226,10 @@
 					<a href="mailto:rodriguez@gmail.com"><img class="footer__redes--icons" src="icons/whatsapp.svg" alt="whatsapp"></a>									
 				</div>
 			</div>
+			<!-- Barra footer redes sociales-->				
+		</div>			
 	</footer>
-
+	<!--Fin Footer -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!-- CDN de la librería de Jquery  -->	
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script><!-- CDN de la librería de Popper  -->

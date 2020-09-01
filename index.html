@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!-- Descripcion SEO -->
 	<meta name="description" content="Desarrollamos tus ideas, desarrollamos tus sueños">
+	<!-- Keywords SEO-->
 	<meta name="keywords" content="html, css3, marketing digital, desarrolo web, google ads, ecomerce">
 	<title>JR Social Manager</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/Logo.png"/>
 	<!-- Css Bootstrap-->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Css Propio -->
@@ -20,8 +24,10 @@
 </head>
 
 <body>
+	<!-- Header-->
 	<header>
 		<div class="container-fluid mt-2">
+			<!-- Navbar Desktop-->				
 			<nav class="navbar navbar-light bg-light">
   				<a class="navbar-brand" href="index.html">
     				<img src="images/Logo.png" width="60" height="45" alt="">
@@ -47,35 +53,37 @@
 				  <li class="nav-item">
 				    <a class="nav-link" href="contacto.html">Contacto</a>
 				  </li>
-				</ul>				
-				<button class="navbar-toggler dropdown navbar__button--mobile" type="button"  data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-		     	
+				</ul>
+				<!-- Fin Navbar Desktop-->				
+				<!-- Navbar Mobile-->				
+				<div class="navbar__button--mobile">
+				<button class="navbar-toggler dropdown" type="button"  data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>		     	
 		     	</div>
-				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav list-Mobile mt-1">
-						  <li class="nav-item active">
-						    <a class="nav-link" href="index.html">Inicio</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
-						  </li>
-						  <li class="nav-item">
-					    	<a class="nav-link" href="servicios.html">Servicios</a>
-						  </li>						  
-						  <li class="nav-item">
-					    	<a class="nav-link" href="portfolio.html">Portfolio</a>
-					  	  </li>
-					      <li class="nav-item">
-					      	<a class="nav-link" href="contacto.html">Contacto</a>
-					  	  </li>
-					 	</ul>
-					</div>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav list-Mobile mt-3">
+					  <li class="nav-item active">
+					    <a class="nav-link" href="index.html">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
+					  </li>
+					  <li class="nav-item">
+				    	<a class="nav-link" href="servicios.html">Servicios</a>
+					  </li>						  
+					  <li class="nav-item">
+				    	<a class="nav-link" href="portfolio.html">Portfolio</a>
+				  	  </li>
+				      <li class="nav-item">
+				      	<a class="nav-link" href="contacto.html">Contacto</a>
+				  	  </li>
+				 	</ul>
+				</div>
+				<!-- Fin Navbar Mobile-->
 			</nav>
 		</div>
 	</header>
-
-
+	<!-- Sección Principal -->
 	<section>
 		<div class="container-fluid">
 		  <div class="row">
@@ -119,19 +127,20 @@
 		  	</div>	
 	  	  </div>
 		</div>
-
 	</section>
-
+	<!-- Fin Sección Principal -->
+	<!--Footer-->
 	<footer>
-		<div class="container-fluid">
+		<div class="container-fluid mt-3">
+			<!-- Footer Mapa y Formulario -->
 			<div class="row ">
 				<div class="col-md text-center">					
 					<p class="footer--text">Ubicación</p>
-					<iframe class="footer__map--mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9249822293586!2d-58.381410897936604!3d-34.60605842757781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50e69a8f7fcb1c11!2sHospital%20Odontologico%20Eva%20Peron!5e0!3m2!1ses!2sar!4v1594943905389!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<iframe class="footer__map--mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9249822293586!2d-58.381410897936604!3d-34.60605842757781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50e69a8f7fcb1c11!2sHospital%20Odontologico%20Eva%20Peron!5e0!3m2!1ses!2sar!4v1594943905389!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
 				<div class="col-md">
 					<p class="text-center footer--text">Contactanos</p>
-					<form class="was-validated" id="footer_form" >
+					<form class="was-validated" id="footer_form">
 						<div class="form-group">
 							<input type="text" class="form-control is-valid" id="name_person" placeholder="Nombre" required>
 						</div>
@@ -158,24 +167,20 @@
 							</div>
 						</div>
 						<div class="text-center">
-							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>
-							
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>							
 							<!-- Modal -->							
 							<div class="modal" id="myModal">
 								<div class="modal-dialog">
-									<div class="modal-content">
-										
+									<div class="modal-content">										
 										<!-- Modal header-->
 										<div class="modal-header">
 											<h4 class="modal-title">Enviado</h4>
 											<button type="button" class="close" data-dismiss="modal">&times;</button>											
 										</div>
-
 										<!-- Body Modal-->
 										<div class="modal-body">Gracias por realizar la consulta!
 											<br>
 										En breve nos comunicaremos con vos.</div>
-
 										<!--Modal Footer -->
 										<div class="modal-footer">
 											<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -186,7 +191,9 @@
 						</div>
 					</form>
 				</div>
-			</div>			
+			</div>	
+			<!-- Footer Mapa y Formulario -->
+			<!-- Barra footer redes sociales-->				
 			<div class="col footer__redes d-flex align-items-center">					
 				<div class="mx-4">
 					
@@ -203,12 +210,12 @@
 					<a href="mailto:rodriguez@gmail.com"><img class="footer__redes--icons" src="icons/whatsapp.svg" alt="whatsapp"></a>									
 				</div>
 			</div>
+			<!-- Barra footer redes sociales-->				
+		</div>			
 	</footer>
-
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!-- CDN de la librería de Jquery  -->	
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script><!-- CDN de la librería de Popper  -->
-	<script src="js/bootstrap.bundle.min.js"></script>
-	
+	<script src="js/bootstrap.bundle.min.js"></script>	
 </body>
 </html>

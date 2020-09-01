@@ -3,8 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JR Social Manager</title>
+	<!-- Descripcion SEO -->
 	<meta name="description" content="Ponete en contacto con nosotros y en breve nos comunicaremos con vos">
+	<!-- Keywords SEO-->
 	<meta name="keywords" content="html, css3, marketing digital, desarrolo web, google ads, ecomerce">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/Logo.png"/>
 	<!-- Css Bootstrap-->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Css Propio -->
@@ -16,12 +20,14 @@
 	<!-- Hacer el proyecto escalable-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Animaciones -->	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>	
 </head>
+
 <body>
+	<!-- Header-->
 	<header>
 		<div class="container-fluid mt-2">
+			<!-- Navbar Desktop-->				
 			<nav class="navbar navbar-light bg-light">
   				<a class="navbar-brand" href="index.html">
     				<img src="images/Logo.png" width="60" height="45" alt="">
@@ -47,41 +53,46 @@
 				  <li class="nav-item">
 				    <a class="nav-link" href="contacto.html">Contacto</a>
 				  </li>
-				</ul>				
+				</ul>
+				<!-- Fin Navbar Desktop-->				
+				<!-- Navbar Mobile-->				
+				<div class="navbar__button--mobile">
 				<button class="navbar-toggler dropdown navbar__button--mobile" type="button"  data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-		     	
+				<span class="navbar-toggler-icon"></span>		     	
 		     	</div>
-				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav list-Mobile mt-1">
-						  <li class="nav-item active">
-						    <a class="nav-link" href="index.html">Inicio</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
-						  </li>
-						  <li class="nav-item">
-					    	<a class="nav-link" href="servicios.html">Servicios</a>
-						  </li>						  
-						  <li class="nav-item">
-					    	<a class="nav-link" href="portfolio.html">Portfolio</a>
-					  	  </li>
-					      <li class="nav-item">
-					      	<a class="nav-link" href="contacto.html">Contacto</a>
-					  	  </li>
-					 	</ul>
-					</div>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav list-Mobile mt-3">
+					  <li class="nav-item active">
+					    <a class="nav-link" href="index.html">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
+					  </li>
+					  <li class="nav-item">
+				    	<a class="nav-link" href="servicios.html">Servicios</a>
+					  </li>						  
+					  <li class="nav-item">
+				    	<a class="nav-link" href="portfolio.html">Portfolio</a>
+				  	  </li>
+				      <li class="nav-item">
+				      	<a class="nav-link" href="contacto.html">Contacto</a>
+				  	  </li>
+				 	</ul>
+				</div>
+				<!-- Fin Navbar Mobile-->
 			</nav>
 		</div>
 	</header>
-
+	<!--Finde Header-->
+	<!-- Sección Principal-->
 	<section>
 		<div class="container-fluid">
 			<div class="row">
+				<!-- Imagen de Contacto-->
 				<div class="col-lg-6 col-md-3 mt-3">
 					<img class="d-flex mx-auto section__contacto__imagen mt-3" src="images/contacto.jpg" alt="Imagen Contacto">					
 				</div>
-
+				<!-- Formulario -->	
 				<div class="col-lg-6 col-md-3" >
 					<p class="text-center mt-3 footer--text">Contacto</p>
 					<form class="was-validated mx-auto" id="section__form_contacto" >
@@ -139,6 +150,7 @@
 						</div>
 					</form>
 				</div>
+				<!-- Mapa-->
 				<div class="container-fluid ">
 					<div class="row">
 						<div class="col-lg text-center">
@@ -147,30 +159,31 @@
 						</div>					
 					</div>
 				</div>				
-			</div>
-			
+			</div>			
 		</div>
 	</section>
-
+	<!-- Fin Sección Principal-->
+	<!-- Footer-->
 		<footer>
 			<div class="container-fluid">
-			<div class="col footer__redes d-flex align-items-center">					
-				<div class="mx-4">					
-					<a href="https://www.facebook.com/" target="blank"><img class="footer__redes--icons" src="icons/facebook.svg" alt="logo facebook"></a>
+				<div class="col footer__redes d-flex align-items-center">					
+					<div class="mx-4">					
+						<a href="https://www.facebook.com/" target="blank"><img class="footer__redes--icons" src="icons/facebook.svg" alt="logo facebook"></a>
+					</div>
+					<div class="mx-4">
+						
+						<a href="http://www.instagram.com" target="blank"><img class="footer__redes--icons" src="icons/instagram.svg" alt="logo instagram"></a>
+					</div>
+					<div class="mx-4">				
+						<a href="mailto:rodriguez@gmail.com"><img class="footer__redes--icons" src="icons/gmail.svg" alt="icon mail"></a>
+					</div>
+					<div class="mx-4">					
+						<a href="mailto:rodriguez@gmail.com"><img class="footer__redes--icons" src="icons/whatsapp.svg" alt="whatsapp"></a>									
+					</div>
 				</div>
-				<div class="mx-4">
-					
-					<a href="http://www.instagram.com" target="blank"><img class="footer__redes--icons" src="icons/instagram.svg" alt="logo instagram"></a>
-				</div>
-				<div class="mx-4">				
-					<a href="mailto:rodriguez@gmail.com"><img class="footer__redes--icons" src="icons/gmail.svg" alt="icon mail"></a>
-				</div>
-				<div class="mx-4">					
-					<a href="mailto:rodriguez@gmail.com"><img class="footer__redes--icons" src="icons/whatsapp.svg" alt="whatsapp"></a>									
-				</div>
-			</div>
 			</div>		
 	</footer>
+	<!-- Fin Footer-->
 	
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!-- CDN de la librería de Jquery  -->	

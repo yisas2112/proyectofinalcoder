@@ -3,8 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JR Social Manager</title>
+	<!-- Descripcion SEO -->
 	<meta name="description" content="Estos son algunos de los clientes que confiaron en nosotros">
+	<!-- Keywords SEO-->
 	<meta name="keywords" content="html, css3, marketing digital, desarrolo web, google ads, ecomerce">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/Logo.png"/>
 	<!-- Css Bootstrap-->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Css Propio -->
@@ -16,13 +20,14 @@
 	<!-- Hacer el proyecto escalable-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Animaciones -->	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-	
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>	
 </head>
+
 <body>
+	<!-- Header-->
 	<header>
 		<div class="container-fluid mt-2">
+			<!-- Navbar Desktop-->				
 			<nav class="navbar navbar-light bg-light">
   				<a class="navbar-brand" href="index.html">
     				<img src="images/Logo.png" width="60" height="45" alt="">
@@ -48,35 +53,40 @@
 				  <li class="nav-item">
 				    <a class="nav-link" href="contacto.html">Contacto</a>
 				  </li>
-				</ul>				
+				</ul>
+				<!-- Fin Navbar Desktop-->				
+				<!-- Navbar Mobile-->				
+				<div class="navbar__button--mobile">
 				<button class="navbar-toggler dropdown navbar__button--mobile" type="button"  data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-		     	
+				<span class="navbar-toggler-icon"></span>		     	
 		     	</div>
-				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav list-Mobile mt-1">
-						  <li class="nav-item active">
-						    <a class="nav-link" href="index.html">Inicio</a>
-						  </li>
-						  <li class="nav-item">
-						    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
-						  </li>
-						  <li class="nav-item">
-					    	<a class="nav-link" href="servicios.html">Servicios</a>
-						  </li>						  
-						  <li class="nav-item">
-					    	<a class="nav-link" href="portfolio.html">Portfolio</a>
-					  	  </li>
-					      <li class="nav-item">
-					      	<a class="nav-link" href="contacto.html">Contacto</a>
-					  	  </li>
-					 	</ul>
-					</div>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav list-Mobile mt-3">
+					  <li class="nav-item active">
+					    <a class="nav-link" href="index.html">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="nosotros.html">Quiénes Somos</a>
+					  </li>
+					  <li class="nav-item">
+				    	<a class="nav-link" href="servicios.html">Servicios</a>
+					  </li>						  
+					  <li class="nav-item">
+				    	<a class="nav-link" href="portfolio.html">Portfolio</a>
+				  	  </li>
+				      <li class="nav-item">
+				      	<a class="nav-link" href="contacto.html">Contacto</a>
+				  	  </li>
+				 	</ul>
+				</div>
+				<!-- Fin Navbar Mobile-->
 			</nav>
 		</div>
 	</header>
-
+	<!-- Fin Header-->
+	<!-- Sección Principal -->
 	<section>
+		<!-- Sección Principal Mobile-->
 		<div class="container-fluid">
 			<div class="row d-md-none">
 				<div class="col-md text-center my-3">
@@ -123,7 +133,8 @@
 				</div>				
 			</div>
 		</div>
-		
+		<!-- Fin Sección Principal Mobile-->
+		<!-- Sección Principal Desktop-->		
 		<div class="container-fluid container__portfolio">
 			<div class="row">
 				<div class="col text-center">
@@ -158,12 +169,14 @@
 					<h3 class="mt-2">Samsumg</h3>										
 				</div>
 			</div>
-
-		</div>	
+		</div>
+		<!-- Sección Principal Desktop-->			
 	</section>
-
+	<!-- Sección Principal -->
+	<!--Footer-->
 	<footer>
 		<div class="container-fluid mt-3">
+			<!-- Footer Mapa y Formulario -->
 			<div class="row ">
 				<div class="col-md text-center">					
 					<p class="footer--text">Ubicación</p>
@@ -198,24 +211,20 @@
 							</div>
 						</div>
 						<div class="text-center">
-							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>
-							
+							<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Enviar</button>							
 							<!-- Modal -->							
 							<div class="modal" id="myModal">
 								<div class="modal-dialog">
-									<div class="modal-content">
-										
+									<div class="modal-content">										
 										<!-- Modal header-->
 										<div class="modal-header">
 											<h4 class="modal-title">Enviado</h4>
 											<button type="button" class="close" data-dismiss="modal">&times;</button>											
 										</div>
-
 										<!-- Body Modal-->
 										<div class="modal-body">Gracias por realizar la consulta!
 											<br>
 										En breve nos comunicaremos con vos.</div>
-
 										<!--Modal Footer -->
 										<div class="modal-footer">
 											<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -226,7 +235,9 @@
 						</div>
 					</form>
 				</div>
-			</div>			
+			</div>	
+			<!-- Footer Mapa y Formulario -->
+			<!-- Barra footer redes sociales-->				
 			<div class="col footer__redes d-flex align-items-center">					
 				<div class="mx-4">
 					
@@ -243,6 +254,8 @@
 					<a href="mailto:rodriguez@gmail.com"><img class="footer__redes--icons" src="icons/whatsapp.svg" alt="whatsapp"></a>									
 				</div>
 			</div>
+			<!-- Barra footer redes sociales-->				
+		</div>			
 	</footer>
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
